@@ -1,3 +1,7 @@
+# !!! README !!!
+BY RUNNING THIS EXECUTABLE/VIRUS, I WILL NOT BE RESPONSIBLE FOR ANY DAMAGES.
+Have fun!
+
 # NoSetup-Trojan
 A C# trojan that overwrites and restricts the system using dedicated code and disguises itself as an installer.
 
