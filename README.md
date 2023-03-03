@@ -12,7 +12,7 @@ A C# trojan that overwrites and restricts the system using dedicated code and di
 - The trojan preparer installs the overwriter for the Master Boot Record, then the trojan setup puts restrictions on registry and runs a lot of scripts to further lock down the victim's computer.
 
 # Changelogs
-Current Version: v0.8.1.9
+Current Version: v1.1.2
 
 Known issues:
 - Broken registry hooking on some code
