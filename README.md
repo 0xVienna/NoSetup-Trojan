@@ -2,16 +2,17 @@
 BY RUNNING THIS EXECUTABLE/VIRUS, I WILL NOT BE RESPONSIBLE FOR ANY DAMAGES.
 Have fun!
 
+
+
 # NoSetup-Trojan
-A C# trojan that overwrites and restricts the system using dedicated code and disguises itself as an installer.
+A C# trojan that overwrites and restricts the system using dedicated code and disguises itself as an installer. In this case, Windows 8.1 Installer.
 
 # How it works
-- It checks for running processes, such as Explorer.EXE and terminates them.
-- The trojan preparer installs the overwriter for the Master Boot Record, then the trojan setup puts restrictions on registry.
+- It checks for running processes, such as Explorer.EXE, taskmgr.exe, notepad.exe and terminates them.
+- The trojan preparer installs the overwriter for the Master Boot Record, then the trojan setup puts restrictions on registry and runs a lot of scripts to further lock down the victim's computer.
 
 # Changelogs
-- V1.2.2
-Fix bugs and working to destroy machine.
+Current Version: v0.8.1.9
 
 Known issues:
 - Broken registry hooking on some code
